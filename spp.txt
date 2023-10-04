@@ -1,0 +1,34 @@
+
+INGROUP:
+Murexia
+	Murexia naso
+	Murexia rothschildi 
+Sminthopsis
+	Sminthopsis archeri
+	Sminthopsis hirtipes
+Acrobates 
+	Acrobates pygmaeus
+Cercartetus
+	Cercartetus lepidus
+Phascolarctos 
+	Phascolarctos cinereus
+Dendrolagus
+	Dendrolagus goodfellowi
+Macropus
+	Macropus fuliginosus
+Vombatus
+	Vombatus ursinus
+Lasiorhinus 
+	Lasiorhinus krefftii
+Notoryctes 
+	Notoryctes typhlops
+Caenolestes
+	Caenolestes caniventer  
+	Caenolestes convelatus
+	Caenolestes fuliginosus
+
+OUTGROUP:
+Ornithorhynchus
+	Ornithorhynchus anatinus
+Zaglossus
+	Zaglossus attenboroughi
