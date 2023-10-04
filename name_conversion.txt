@@ -1,2 +1,4 @@
 MN	Phascomurexia_naso	16s	KJ868145.1:1092-2666	 cybt	KJ868145.1:14178-1532
-
+MP	Paramurexia_rothschildi	16s	KJ868134.1:1104-2680	cybt	KJ868134.1:14210-15355
+PC	Phascolarctos_cinereus	16s	AB241053.1:1091-2663	cybt	AB241053.1:14175-15314
+MF	Macropus_fuliginosus	16s	MH717106.1:1094-2663	
