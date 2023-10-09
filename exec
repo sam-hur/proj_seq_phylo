@@ -1,0 +1,36 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Oct  9 17:03:34 2023
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+Processing of file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_16s.nxs" begins...
+
+Data read in DNA format
+
+Data matrix has 12 taxa, 1638 characters
+Valid character-state symbols: ACGT
+Missing data identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_16s.nxs" completed.
+

@@ -1,0 +1,84 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Oct  9 17:06:44 2023
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+paup> exec m_16s.nxs
+
+
+Processing of file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_16s.nxs" begins...
+
+Data read in DNA format
+
+Data matrix has 12 taxa, 1638 characters
+Valid character-state symbols: ACGT
+Missing data identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_16s.nxs" completed.
+
+paup> set criterion=parsimony;
+
+
+paup> hsearch;
+
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 1638 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        926 characters are constant
+        240 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 472
+    Multistate taxa interpreted as uncertainty
+  Starting tree(s) obtained via stepwise addition
+  Addition sequence: simple (reference taxon = MN)
+  Number of trees held at each step during stepwise addition = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+  Steepest descent option not in effect
+  Initial 'MaxTrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Topological constraints not enforced
+  Trees are unrooted
+
+Heuristic search completed
+   Total number of rearrangements tried = 1199
+   Score of best tree(s) found = 1750
+   Number of trees retained = 2
+   Time used = <1 sec (CPU time = 0.00 sec)
+
+paup> savetrees file=m_16s_pars.tre format=phylip brlens;
+
+
+2 trees saved to file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_16s_pars.tre" in PHYLIP format
+
+paup> end;
+
+
+Error(#114): Unexpected 'End' (or 'EndBlock')
+
+paup> quit;
+
