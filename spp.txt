@@ -19,7 +19,8 @@ Caenolestes
 	Caenolestes fuliginosus
 Phalanger
 	Phalanger gymnotis
-
+Setonix
+	Setonix brachyurus
 
 OUTGROUP:
 Ornithorhynchus
