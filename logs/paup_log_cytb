@@ -1,0 +1,45 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Oct  9 17:16:01 2023
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+paup> exec m_cytB_mafft_nexus.nxs;
+
+
+Processing of file "~/1MB438/DATA/Lab5/proj_seq_phylo/m_cytB_mafft_nexus.nxs" begins...
+
+Data read in DNA format
+
+Data matrix has 12 taxa, 1146 characters
+Valid character-state symbols: ACGT
+Missing data identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Error(#207): Invalid character state '/' for taxon 1, character 1.
+Error occurred at line 22 of file /home/sahu9631/1MB438/DATA/Lab5/proj_seq_phylo/m_cytB_mafft_nexus.nxs
+
+Processing of file "/home/sahu9631/1MB438/DATA/Lab5/proj_seq_phylo/m_cytB_mafft_nexus.nxs" terminated due to
+errors.
+
+paup> q
+
