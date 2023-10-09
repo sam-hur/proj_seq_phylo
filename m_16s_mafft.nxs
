@@ -1,0 +1,444 @@
+LOCUS       MN       1638 bp
+DEFINITION  MN, 1638 bases, F5CA7D3C checksum.
+ORIGIN      
+       1  gctaga-cct agtcctacat acaaccaat- ----gtaatt atccaaacta
+      51  tc-----att taaaaca-tt tattagt--- -cttagtata ggcgatagaa
+     101  cagactgttt acaggcacaa tagaaaaagt accgcaaggg aacgttgaaa
+     151  ga---cttaa acctaaaagc atcaaaaagc aaagatcaaa ccttctacct
+     201  tttgcataat gatttagcta g-tcaactcg gacaaaaaga attaaagccc
+     251  gtcttcccga aattaggtga gctattgtag aacagttgt- -cagaacgaa
+     301  ctcgtctatg tagcaaaata gtgagatgat tttacaatag aggtgaaaag
+     351  cctatcgaac ctaatgatag ctggttgtcc aaaaaatgaa tcttagttca
+     401  actttaaact -taaactaag tactattaaa ccaaatttaa gcttaaatgt
+     451  tattcaaaag ggggacaact cttttgat-a tgtaaacaaa cttaattaga
+     501  ggataatg-- --atacccat ataaaacatt gtaggcctaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaaccaa c--ctgttat ttaataccaa
+     601  taa--cccat caaaatccct aacttaac-- attggacaat tctatttata
+     651  tttagaagat ataatgctaa tatgagt-aa catgaa---t aaattctcct
+     701  tgcacaagca taga-tatga tcggaacagc cgcttacact tagacaaata
+     751  aataattata ttcacacact agcaccttat ta---ctcac attgttaacc
+     801  caaccctggt gtgca-ccta aaggaaagat taaaaggaat aaaaggaact
+     851  cggcaaataa ----aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  attaatcagt attagaggca ctgcctgccc ggtgag---t tatgacttta
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctctt
+    1001  aattggagac tagtatgaat ggcacaacga gggtttgact gtctcttatt
+    1051  cccaatcagt gaaattgacc ttcccgtgca gaggcgggaa taataataca
+    1101  agacgagaag accctgtgga gcttaagtct aataactcac catgtacccg
+    1151  cgttaaacct actggaacaa atagtat--a agcaactgag ttatagtctt
+    1201  cggttggggt gacctcggag cataaaacaa cctccgaat- -gataataac
+    1251  ctagataaac caatctaagt gtaagaat-a ccagtaattg acccatctt-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctatttga
+    1351  gagcccatat cgaaaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  cccaaatggt gcagccgcta ttaaaggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  taacctcatt tctcctagta c-gaaaggac aagagaaatg gggccaatgt
+    1551  t-tccgacaa gccctagagc aaatatatg- aaaacatctt aatataataa
+    1601  ctcaatgttt ctacaaccca ccctagaaca gggtt---
+//
+LOCUS       MR       1638 bp
+DEFINITION  MR, 1638 bases, 4BE49DB7 checksum.
+ORIGIN      
+       1  gctaga-tct agtcctacat acacacagtc aaaaataatt atccaaacta
+      51  tt-----att caaaacattt tatcaat--- -cctagtata ggtgatagaa
+     101  cagattaact -taggcacaa tagagagagt accgtgaggg aatgttgaaa
+     151  ga---ttcta tcctgtaagc aataaaaagc aaagattaga ccttatacct
+     201  tttgcataat gatttagcta g-tcaacccg gacaaaaaga attaaagccc
+     251  gtcttcccga aattaagtga gctattgtag agcagttat- -cagaacgaa
+     301  ctcgtctatg tagcaaaata gtgagatgac tttacaatag gggtgaaaag
+     351  cctatcgaac ttaatgatag ctggttgttc aaaaaacgaa ttttagttca
+     401  actttaaact -taacctaag taccagtaaa ccagatttaa gtttaaatgg
+     451  tagtcaaaag ggggacaact cttttgat-a tgtagacaaa cttacttaga
+     501  gggtaatg-- --gtaattat atagaacata gtaggcctaa aagcagccat
+     551  caattaagaa agcgttaaag ctcaaactaa c--ctcttat ttaatacctt
+     601  taa--accat caaaacccct aatttaat-- attggacaat tctattaatg
+     651  tttagaagat ataatgctaa tatgagt-aa catgaa---t caattctcct
+     701  tgcacaagca taaa-tacga tcggaacagc cgcttacatt taatcaaaca
+     751  aataactata cccacatact agaaacctat aa---gtctc attgttaacc
+     801  caactcaggt gtgca-tat- aaggaaagat taaaaggaat aaaaggaact
+     851  cggcaaataa ----aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  atttaccagt attagaggca ctgcctgccc ggtgag---t tacgacttta
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctttt
+    1001  aattggagac tagtatgaat ggcatgacga gggtttgact gtctcttatt
+    1051  tctaatcagt gaaattgacc tccccgtgca gaggctggga tgtatgtaca
+    1101  agacgagaag accctgtgga gcttaagtct aacaactcaa cacatactt-
+    1151  tattcaacct attggaacaa accgtat--a agccactgag ttgtagtctt
+    1201  tggttggggt gacctcggag cataaaacaa cctccgaat- -gattataac
+    1251  ctagatcagc caatctaagt gtactaat-a ccagtaattg acccatctt-
+    1301  atgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctatttga
+    1351  gagcccatat cgaaaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcagccgcta ttaaaggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  taattttatt tctcctagta c-gaaaggac aagagaaata gggctaacgt
+    1551  c-cccgataa gccctagagc caaaatatg- aaatcatctt aatattataa
+    1601  ctcaatataa gtacaa-atg cccaagaaca gggtt---
+//
+LOCUS       PC       1638 bp
+DEFINITION  PC, 1638 bases, B9D0F0D2 checksum.
+ORIGIN      
+       1  gccaat-ata agcccatcca ctaactaat- ----acaact atattaa--a
+      51  tt---tctac caaaacattc aattcat--- -cctagtata ggagatagaa
+     101  caga-t-aaa -aaggcgcat taatgatagt accgcaaggg aaacctgaaa
+     151  ga-----taa gattataagc accacaaagc aaagattcaa ccttctacct
+     201  tttgcataat ggtttagcta g-tcaactcg gacaaaaaga a-ctatgccc
+     251  gtcctcccga aatcaagtga gctactacaa gacagc-aa- ctagagccaa
+     301  ctcgtctatg tagcaaaata gtgagaagat cttatagtag aggtgaaaag
+     351  cctatcgaac ttgaggatag ctggttatcc aaaacacgaa tataagttca
+     401  actttaaatt -taaccaaag taatcataaa cataatttaa atttaaaagc
+     451  taatctaaag ggggacaact ctttagatcc agtaaacaaa cttccataga
+     501  ggataatg-- -aaccatata caact-cata gttggcttaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaataca caatatcatt ttaatcccta
+     601  aaat-ataat caaaatccct atctctaa-- attggataat tctataaata
+     651  tatagaagct ataatgctaa aattagt-aa caagaa---a catttctccc
+     701  tgcacaagcc tacattagaa acggaacaac cactaacaat taacaaacta
+     751  ataaacataa ctaaacgact agaaagctat ta---accat attgtcaacc
+     801  caacacagga gtgcaaccca agggaaagat taaaaggaat aaaaggaact
+     851  cggcaagtac atataacccc gcctgtttac caaaaacatc a-cctctagc
+     901  ata-acaaat attagaggca acgcctgccc agtgag---t taa-acttta
+     951  acggccgcgg tatactgacc gtgcaaaggt agcataatca cctgtcctct
+    1001  aaatagggac ttgtatgaat ggcatcacga gggcctaact gtctcctatt
+    1051  cccaatcagt gaaattgacc ttcccgtgca gaggcgggaa taatactaca
+    1101  agacgagaag accctgtgga gcttaagatt aataacttaa cccaatctta
+    1151  atactaccct a-atggcata acaacac--t atatactaag ttataatctt
+    1201  tggttggggt gacctcggag aacaaaataa cctccgaat- -gacta-aac
+    1251  ccagattaac atacctaagt atgacaac-a tcagtaattg acccatatt-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctattaaa
+    1351  gagaccatat cgacaatcag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcagccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagcaa tccaggtcgg tttctatctg
+    1501  tatattcatt actcccagta c-gaaaggac aagagaaata aggctaatat
+    1551  taacagacaa gcctcagaga taaggtatg- aaaccatctc aataccataa
+    1601  ctcaataact tta----ttc tctagagaca gagct---
+//
+LOCUS       MF       1638 bp
+DEFINITION  MF, 1638 bases, 539B0FBB checksum.
+ORIGIN      
+       1  gccaat-tta agcccacccg actatcaaa- ----tcaaat attacaac-a
+      51  cc---taatc taaaccattt tacccgt--- -ctaagtata ggcgatagaa
+     101  aagacttacc -caggcgcaa taacgcaagt accgcaaggg aaacatgaaa
+     151  ga-----c-c aattctaagc actaaaaagc aaagattaga ccttctacct
+     201  tttgcataat gatttagcca g-tcaaatcg gacaaaaaga a-ttatgccc
+     251  gccttcccga aatcaagtga gctactatag aacagt-tg- acaggaccaa
+     301  ctcatctatg tagcaaaata gtgagaagat tttatagtag aggtgaaaag
+     351  cctaccgaac ttgatgatag ctggttatcc aaaatatgaa ttttagttcg
+     401  actttaaatt -taattaaat taccaataaa cctaacttaa atttaaaagc
+     451  taatcaaaag ggggacaact cttttgatca tgtaaacaaa ctttattaga
+     501  ggataatg-- -aatacc--a aaaac-catt gtaggcccaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaataca ccaacaaacc ttaatcccaa
+     601  aaat-accgt caaaatccct aacatagact attggatgat tctataaccc
+     651  tatagaagac ataatgctaa aataagt-aa caagaa---a catttctcct
+     701  agcacgagcc taaattagca acggaacacc cactaacaat taacaaatca
+     751  ataatttcaa tcaaataact agcaaaattc ttacaacc-- attgttaacc
+     801  caacacagga gtgct---aa caggaaagat taaaaggaat aaaaggaact
+     851  cggcaaatac a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  ata-acaaat attagaggca acgcctgccc agtgag---c tcacacttta
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctctt
+    1001  aattagagac tcgcatgaat ggcaccacga gggtttagct gtctcttatc
+    1051  cccaatcagt gaaattgacc ttcccgtgca gaggcgggaa tactaataca
+    1101  agacgagaag accctgtgga gcttaagatt catagtctaa ctcaaact--
+    1151  atcttaccct acata-agga acaaacccag acctactaga ctataacctt
+    1201  tggttggggt gacctcggag cataaaaaaa cctccgaat- -gacta-agc
+    1251  caagattcat taatctaagc gtaatact-a ccagtaattg acccatatt-
+    1301  ttgatcaaca gaacaagtta ccccagggat aacagcgcaa tcctatttaa
+    1351  gagcccatat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcagccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  tacattaatt cctcccagta c-gaaaggac aagagaaata aggcctacgc
+    1551  cacatagtga gccttagaaa taagatatg- aacttatcta aatatcctaa
+    1601  ttcaattact t-t----cca ctctagaaaa gagtc---
+//
+LOCUS       AP       1638 bp
+DEFINITION  AP, 1638 bases, 91EA67D3 checksum.
+ORIGIN      
+       1  gctaatctta agcccctgca agcaacaaa- ----acaact attt-----t
+      51  ctgtattaac caaaacattt attct-t--- -cctagtata ggcgatagaa
+     101  caga--caac -caggcgcaa taacaaaagt accgtaaggg aaacatgaaa
+     151  ga-----c-c gatcaatagc accacaaagc aaagattaaa ccttctacct
+     201  tttgcataat gattcagcta g-tctaaccg gacaaaaaga a-tttagccc
+     251  gtcttcccga aattaagtga gctattataa aacagcttat ctagagccaa
+     301  ctcatctatg tagcaaaata gtgagaagat tttatactag aggtgaaaag
+     351  cctaccgaac ttaaggatag ctggttatcc aaaacatgaa ttttagttca
+     401  actctaaact -ttattaaag tcataagata cataacttaa gtttagaagt
+     451  taatcaaaag agggacaact cttttgatta cgtaaacaaa cttcttcaga
+     501  ggataatg-- --attattac atttc-catc gtgggcctaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaaccca a--aacaccc ttaattcctt
+     601  taa--taaat caaattccct gtcataac-- attggatgat tctatacaat
+     651  tatagaagcc ataatgctga aatcagt-aa caagaa---t cctttctcct
+     701  agcacaagcc tacattagca acggaaacac cactaacaat taacaaaacc
+     751  ataataataa tccaacaact agctaattat ta---tcccc attgttaacc
+     801  caacacagga gtgct--ctc caggaaagat taaaaagaat aaaaggaact
+     851  cggcaaacac a---aacccc gcctgtttac caaaaacatc accctctagc
+     901  atc-ataaat attagaggca acgcctgccc agtgag---t ccc-acttca
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtccctt
+    1001  aaatagagac ttgtatgaac ggcatcacga gggtttaact gtctcttatt
+    1051  cccaatcagt gaaattgacc ttcccgtgca gaggcgggaa taaacataca
+    1101  agacgagaag accctgtgga gcttaagatt aatagcctac -ctatcttca
+    1151  atcctacccc aaaagg---a ataaaatatg ataccctaga ctataatctt
+    1201  tggttggggt gacctcggag cataaaacaa cctccgaat- -gatct-aac
+    1251  ccagattaac taatcgaagt gtaacatt-a ccagtaattg acccataac-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctatttta
+    1351  gagcccctat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gaagccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgag-tcag accggagaaa tcca------ ----------
+    1501  ---------- ---------- ---------- ---------- ----------
+    1551  ---------- ---------- ---------- ---------- ----------
+    1601  ---------- ---------- ---------- --------
+//
+LOCUS       VU       1638 bp
+DEFINITION  VU, 1638 bases, E4ED1332 checksum.
+ORIGIN      
+       1  gccaat-aaa agcccatcca cccaccaac- ----acaatt atatcaa--a
+      51  tc---ttaac gaaaacatta atttaat--- -cacagtata ggtgatagaa
+     101  caga-t-aaa -taggcgcat taatgtaagt accgcaaggg aaatctgaaa
+     151  ga-----caa gattcaaagc accataaagc aaagattaaa ccttctacct
+     201  tttgcataat gatttagcta g-tcaaaccg gacaaaaaga a-ttacgccc
+     251  gtccccccga aatcaagtga gctactataa aacagtaaa- ccagaaccaa
+     301  cccgtctatg tagcaaaata gtgggaagat tttatagtag aggtgaaagg
+     351  cctaccgaac ttgaagatag ctggttgtcc aaaatatgaa tttaagttca
+     401  actttaaatt -taactaaag tacccaaaaa cataatttaa atttaaaagc
+     451  taatcaaaag ggggacaacc cttttgatta cgtaaacaaa ctttccaaga
+     501  ggataatg-- -aaccgc-tc caacc-catt gtgggcttaa aagcagccat
+     551  caattaagaa agcgttaaag ctcaaatcta c--caacata ataattccta
+     601  aaatcccaat caaaatccct tctcctaa-- attggacaat tctataaaca
+     651  tatagaagat ataatgctaa aattagt-aa caagaa---a tatttctcct
+     701  tgcacaagcc tacattagca acggaatctc cactaacaat taacaaaccc
+     751  atagacataa ccaaagtact agaagactat ta---accca actgttaacc
+     801  caacacaggt gtgca--cct aaggaaagat taaaaagaat aaaaggaact
+     851  cggcaaacac a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  ata-ataaat attagaggca acgcctgccc ggtgag---t tta-acttta
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctctt
+    1001  aattagggac tcgcatgaat ggcataacga gggttcgact gtctcttatt
+    1051  cttgatcagt gaaattgacc ttcccgtgca gaggcgggaa tacagataca
+    1101  agacgagaag accctgtgga gcttaagatt aataacttaa -ccaaaccaa
+    1151  ataacaccca acatggcata acaacat--a aacccctaag ttataatctt
+    1201  tggttggggt gacctcggag tataacataa cctccgaat- -gacta-aac
+    1251  ccagatctac aaatctaagt ataataat-a tcagtaattg acccatata-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctattcaa
+    1351  gagcccatat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcatccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  tacattcatt cctcccagta c-gaaaggac aagagaaata aggccaacat
+    1551  taccagataa gccttcgaaa caagatatg- aacccatcta aatatccaaa
+    1601  ttcaatactt caa----acc tctaga---- --------
+//
+LOCUS       NT       1638 bp
+DEFINITION  NT, 1638 bases, BDAB9169 checksum.
+ORIGIN      
+       1  gctaga-tat agccctacta accaactag- ----ttaatt attcc----a
+      51  tcgactaaat aaaagcattt a--taac--- -cttagtata ggtgatagaa
+     101  caga-aatag -caggagcaa tagagatagt accgcaaggg aataatgaaa
+     151  ga-----ccg accttaaagc aaagtaaagc aaagattaat cctttt-cct
+     201  tttgcataat gatttagcta g-aaaaatca gacaaaaaga atttaagcct
+     251  gacttcccga aattaagtga gctactataa gacagttgg- -cagaacgaa
+     301  ctcgtctatg tagcaaaata gtgagaagat tttatagtag aggtgaaaag
+     351  ccaatcgaac ttaaagatag ctggttatcc aaaacacgaa ttttagttca
+     401  actttaaatt -taactaaag tgaaacgata cataatttaa atttaaaagt
+     451  tagtcaaaag agggacaact cttttgat-a tgtggacaaa cttccttaga
+     501  ggatcaca-- ---taattga tattcacatt gtaggcctaa aagcagccat
+     551  caattaagaa agcgtccaag ctcaaacgct a--aaatctc caaatctcaa
+     601  caatattaat tcaatcccta attttaat-- attggatgat tttataatga
+     651  tataaaagac ataatgctaa aataagt-aa caagaatttt tttttctcct
+     701  cgcataagcc taaattagca acggaacacc cactaataat tagcagccta
+     751  tatactataa tttaaccacc agataaatat ac--caatat actgttaacc
+     801  cgacacaggt atgcg-ttac aaggaaagat tgaaaagaat aaaaggaact
+     851  cggcaatcaa a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  att-acaaat attagaggca ttgcctgccc agtgag---t tattacttaa
+     951  acggccgcgg tattctgacc gtgcaaaggt agcataatca tttgtctctt
+    1001  aattggggac tcgtatgaat ggcgtgacga gggtttaact gtctcttatt
+    1051  cttgatcagt gaaattgacc ttcacgtgca gaggcgtgga tatttatgca
+    1101  agacgagaag accctgtgga gctttatact aataacttaa gatctatt-a
+    1151  ttctcaccca acatgggcta acaaaataat at-aactaag tcatagtttt
+    1201  tggttggggt gacctcggag catagaataa cctccgaata aaagtataac
+    1251  cgagactaac cagttaaagt gttatgga-a ccagtaattg acccatata-
+    1301  ttgatcaacg gaataagtta ccccagggat aacagcgcaa tcctattcaa
+    1351  gagcccatat cgac-attag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcatccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  cacatccatt tttcccagta c-gaaaggac aagaaaaata aggccaaca-
+    1551  taactaatga gccttagaat taatatatg- aattcatcta aatatagtaa
+    1601  ttcaatattc tgc----ttc ctctagaaaa gag-----
+//
+LOCUS       OA       1638 bp
+DEFINITION  OA, 1638 bases, BEAFC9CB checksum.
+ORIGIN      
+       1  gccaac-tct agcccaaatt aatcttaat- ----acacat ataaa----c
+      51  tctaataaac taaaacattt taacgctaac ccctagtata ggagatagaa
+     101  aagg---aaa -ttggagcct tagacatagt actgtgaagg aaaaatgaaa
+     151  ga------tt agcttaaagc acaaaaaagc caggatttaa ccctgtacct
+     201  tttgcataat ggtttagcta g-aaaactta tatacaaaga attttaatat
+     251  aaaatcccga aactagatga gctactatcg agcaattta- ttagaatcaa
+     301  cccgtctatg ttgcaaaata gtgggatgac tttatagtag aggtgaaaaa
+     351  tcaaccggac ctagtgatag ctggttagcc aaaaaacgaa tttaagttca
+     401  acaataagtt -tatttcctg atatactata ttaaccataa acttataagt
+     451  tattcataag agggtcagcc cttatgaata aggaaacaac ctctaataga
+     501  gggaaatt-- ----tattct tatttacata gtaggcctaa aagcagccat
+     551  caattaaaaa agcgttaaag cttaaacttc a--ttctttc ttaatccctt
+     601  aac--ttctt aactacccct aaaataat-- attggcttaa tctatgtccc
+     651  catagaagaa ataatgctaa aataagtaaa ccagaa---t ttattctcca
+     701  tgcactagct taaattag-a acggagcatc cactaataat taacagctaa
+     751  ataatcataa atattaacta gaaacattat tt---tataa actgttaacc
+     801  cgacacagga gtgca--tct aaggaaagat taaaaggagt aaaaggaact
+     851  cggcaaacta g---gatttc gcctgtttac caaaaacatc g-cctctagc
+     901  ata-acaagt attagaggtc ctgcctgccc agtgat---t cta---ttaa
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca tttgtctcct
+    1001  aattagagac tagtatgaat ggctagacga aaatccaact gtctcttact
+    1051  cccaatcagt gaaattgccc tccccgtgca gagacgggga taacaccata
+    1101  agacgagaag accctgtgga gctttaa--t catagattta ttctttttca
+    1151  tacagaccca a--aagctca acacctt--a agaatttttt caactgattt
+    1201  tggttggggt gacctcggag tacaacaaaa cctctgaat- ---gcatagt
+    1251  aataacttac aagtttaaac gcaaaact-g ccagtaatag acccaaatta
+    1301  ttgatcaaag gaccaagtta ccccagggat aacagcgcaa tcctattcaa
+    1351  gagttcatat cgacaat-ag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcagccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagtaa tccaggtcgg tttctatcta
+    1501  tggg-taatt tctcctagta cggaaaggac cagagaaatc aggccaatct
+    1551  taa-aaagaa gcctccaact taacaaatg- atttcatctc aatttgccac
+    1601  gttaccctta cta------a tcctagacca ggaattct
+//
+LOCUS       LK       1638 bp
+DEFINITION  LK, 1638 bases, B303A35B checksum.
+ORIGIN      
+       1  gccaat-aaa agcccatcca cccatcaac- ----acaact atatcaa--a
+      51  tc---ttaac aaaaacatta attcaac--- -catagtata ggtgatagaa
+     101  caga-t-aaa -taggcgcat taacgttagt accgcaaggg aaatctgaaa
+     151  ga-----caa gatttaaagc acaacaaagc aaagattaac ccttctacct
+     201  tttgcataat gatttagcta g-tcaaaccg gacaaaaaga a-ttacgccc
+     251  gtctccccga aatcaagtga gctactatat aacagtaaa- ccagaaccaa
+     301  cccatctatg tagcaaaata gtgggaagat tatatagtag aggtgaaaag
+     351  cctaccgaac ttgaagatag ctggttgtcc aaaatacgaa tttaagttca
+     401  actttaaatt -taactacag tacccataaa cataatttaa atttaaaagc
+     451  taatcaaaag ggggacagcc cttttgatta cgtaaacaaa ctttttaaga
+     501  ggataatg-- -aaccac-tc caatc-catt gtaggcctaa aagcagccat
+     551  caattaagaa agcgttaaag ctcaaatttt c--caacata ataatcccca
+     601  aaatcccaat caaaatccct tttattaa-- attggacaat tctatagata
+     651  tatagaagat ataatgctaa aattagt-aa caagaa---a tacttctcct
+     701  tgcacaagcc tatattagaa acggaacctc cactaacaat taacaaatcc
+     751  atagacataa ccaaaacact agaagactac catttaccca actgttgacc
+     801  caacacaggt gtgca--cct aaggaaagat taaaaagaat aaaaggaact
+     851  cggcaaacac a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  ata-ataaat attagaggca acgcctgccc agtgag---t tta-acttta
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctctt
+    1001  aaatagagac ttgtatgaat ggcataacga gggtttaact gtctcttatt
+    1051  ctcaatcagt gaaattgacc ttcccgtgca gaggcgggaa tacaaataca
+    1101  agacgagaag accctgtgga gcttaagatt aatagcttaa -ctaaactaa
+    1151  atataaccca acatggcata acaacac--a acctcctaag ttataatctt
+    1201  tggttggggt gacctcggag tacaacataa cctccgaat- -gatta-aac
+    1251  ctagatctac aaatctaagt ataataat-a tcagtaattg acccatata-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctattcaa
+    1351  gagcccatat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gtatccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  tatatttatt cctcccagta c-gaaaggac aagagaaata aggccaacat
+    1551  ta-cagataa gccttcgaaa caagatatg- aacttatctc aatatcctaa
+    1601  ctcaatactt caa----atc tctagaaata gagct---
+//
+LOCUS       CF       1638 bp
+DEFINITION  CF, 1638 bases, F81317B6 checksum.
+ORIGIN      
+       1  gcaaatattt agccca-aca tgaatccaa- ----aaaaaa atattaa--a
+      51  caaataaaac caaaacattt aatca-t--- -ttaagtata ggtgatagaa
+     101  aatt-ttata -cgggcgcta taacgtaagt accgcaaggg aaacatgaaa
+     151  gaatcatcaa cttttaaagc agaaaaaagc aaagattaaa tcttctacct
+     201  tttgcataat gacttagcca gaataaatcg gacaaaaaga a-ttatgcct
+     251  gaaaccccga aattaagtga gctactgcta aacagtcaa- -caggaccaa
+     301  ctcgtctatg tagcaaaata gtgagatgat ttaccagtag aggtgaaaag
+     351  cctaacgaac ttaatgatag ctggttatcc aaaaatcgaa tttcagttca
+     401  actttaaatt -taataaaaa taatactaaa taacacttaa atttaaaagc
+     451  tattcaaaag ggggacaact cttttgat-a tgtaaacaaa cttcattaga
+     501  gggtaatg-- ---atattaa ctttc-catt gtaggcttaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaactaa t--attacat ttaattccac
+     601  tca--tataa caaaacccct aaaaaaat-- attggatgat tctattcaat
+     651  tttagaagac ataatgctaa gattagt-aa caagaa---t taattctcca
+     701  tgcacaagct taagttagca acggaacacc cactaataat taacaaaaca
+     751  atttaaataa tcata-aact agctcatcct aa---caact attgttaacc
+     801  caacacaggt gtgca--cac aaggaaagat taaaaagaat aaaaggaact
+     851  cggcaaacaa a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  att-ataagt attagaggca ctgcctgccc agtgagctat tta-acttca
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctttt
+    1001  aaatagagac tagtatgaat ggcttaacga gggtttaact gtctcttatt
+    1051  ctcaatcagt gaaattgacc tccccgtgca gaggcgggga tatacatata
+    1101  agacgagaag accctgtgga gcttaagatc catgtcttaa tttattacaa
+    1151  aaaatccccc a---gggcta ttaatgcata gctactaaga catagacctt
+    1201  tggttggggt gacctcggag cataaaacaa cctccgaat- -gattataac
+    1251  caagattaac caatttaagt gcataaaa-g ccagtaattg acccaaata-
+    1301  ttgatcaacg gaacaagtta ccccagggat aacagcgcaa tcctacttaa
+    1351  gagcccatat cgac--ttag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tcccaatggt gcaaccgcta ttaaaggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatcta
+    1501  tataacaatt tctcccagta c-gaaaggac aagagaaata aggcctacat
+    1551  taactcatgc gcctttaaca taagttatga aacacatcta aataacaaaa
+    1601  cttaactagt ttc----ttc tctagaaaag agcc----
+//
+LOCUS       PG       1638 bp
+DEFINITION  PG, 1638 bases, F5A07450 checksum.
+ORIGIN      
+       1  gctaat-aat agccctaata cctaccaaa- ----acaact atccaaa--a
+      51  accaaccaaa taaaacattc atcccat--- -ctaagtata ggagatagaa
+     101  caga-tcaca -taggagcaa taacattagt accgcaaggg aaatatgaaa
+     151  ga-----c-t tatttacagc actacaaagc aaagatttaa ccttctacct
+     201  tttgcataat ggtttagcca g-tcaaaccg gac-aaaaga a-ttacgccc
+     251  gccctcccga aatcaagtga gctactataa aacagtata- ccagaactaa
+     301  ctcatctatg tagcaaaata gtgagaagat tttatagtag aggtgaaaag
+     351  ccaatcgaac ttgaagatag ctggttgtcc aaaacacgaa ttttagttca
+     401  actttaaatt ctaactaaag tccctataac cacaacttaa atttaaaata
+     451  tattctaaag agggacaact ctttagatta cgtagacaaa cttccttaga
+     501  ggataatgct aaactac--a caaat-catc gtaggcttaa aagcagccat
+     551  caatcaagaa agcgttaaag ctcaaatcca t--caaaact ttaataccaa
+     601  caa--cccat caaattccct aaacctat-- attggacgat tctataataa
+     651  catagaagac acaatgctaa aatcagt-aa caagaa---a ttattctcct
+     701  tgcacaagcc tacattagta acggaaccac cactaacaat taacaaaaat
+     751  ataataacaa acacatacta gcaaaattat taaata---- attgttaacc
+     801  caacacagga gtgca---tc aaggaaagat taaaa-gaat aaaaggaact
+     851  cggcaaacat a---aacccc gcctgtttac c-aaaacatc a-cctctagc
+     901  ata-tcaagt attagaggca tcgcctgccc agtgag---c tta-acttca
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctcct
+    1001  aaatagagac tagtatgaat ggcatcacga gggtttaact gtctcttatt
+    1051  ctcaatcagt gaaattgacc ttcccgtgca gaggcgggaa taaacctaca
+    1101  agacgagaag accctatgga gcttaagatt aatagtccat -ataaaccaa
+    1151  atcaaaccct aaaaggcata acacaac--a attaactgga ctataacctt
+    1201  tggttggggt gacctcggag cacaacaaaa cctccgaat- -gatat-aac
+    1251  tcagattaac caatctaagt gtgccaatca ccagtaattg acccataca-
+    1301  atgatcaacg gaacaagtta ccctagggat aacagcgcaa tcctattcaa
+    1351  gagcccatat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcaaccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagcaa tccaggtcgg tttctatctg
+    1501  tatatccatt tctcccagta c-gaaaggac aagagaaata aggccaacat
+    1551  tacca-acga gccttagaaa aaagatatg- aataaatcta aatatcttaa
+    1601  ctcaacaatt taa----aaa ctctaaaaan gagcc---
+//
+LOCUS       SB       1638 bp
+DEFINITION  SB, 1638 bases, E88D0893 checksum.
+ORIGIN      
+       1  gccaat-tta agcccatcca actatcaaa- ----acaaat attacagcta
+      51  cc---tcatc caaatcattt accctgt--- -ctaagtata ggtgatagaa
+     101  aagaccaacc -caggcgcaa taacgcaagt accgcaaggg aaacatgaaa
+     151  ga-----c-c aatttaaagc actaaaaagc aaagattaga ccttttacct
+     201  tttgcataat gatttagcaa g-tcaaaccg gacaaaaaga a-ttatgccc
+     251  gccttcccga aatcaagtga gctactatag aacagt-ta- acagaaccaa
+     301  ctcatctatg tcgcaaaata gtgagaagat tttatagtag aggtgaaaag
+     351  cctaccgaac ttgatgatag ctggttatcc aaaatacgaa ttttagttca
+     401  actttaaatt -taattaaat tactaataaa cctaacttaa atttaaaagc
+     451  taatcaaaag agggacaact cttttgatca tgtaaacaaa ctttattaga
+     501  ggataatg-- -aacatc--a aatac-catt gtaggcctaa aagcagccac
+     551  caattaagaa agcgttaaag ctcaaattcc ccaa-aaatc ttaatcccaa
+     601  aaat-attac caaaatccct aacacagact attggatgat tctataattt
+     651  tatagaagac ataatgctaa aataagt-aa caagaa---a tatttctcct
+     701  agcacaagcc taaattagca acggaacacc cactaacaat taacaaacta
+     751  acaatttcaa tcaaataact agcaaaattt ttacaacc-- attgttaacc
+     801  cgacacagga gtgct---aa taggaaagat taaaaagaat aaaaggaact
+     851  cggcaaatac a---aacccc gcctgtttac caaaaacatc a-cctctagc
+     901  att-acaaat attagaggca acgcctgccc agtgag---c taacacttca
+     951  acggccgcgg tatcctgacc gtgcaaaggt agcataatca cttgtctctt
+    1001  aattagagac tggtatgaat ggcaccacga gggtttaact gtctcttatt
+    1051  ctcaatcagt gaaattgacc ttcccgtgca gaggcgggaa tactaataca
+    1101  agacgagaag accctgtgga gcttaagatt catagtctaa tttaaatt--
+    1151  a-aaaaccct gcacgcagga acaaaaccaa atcaactaga ctataacctt
+    1201  tggttggggt gacctcggag tacagaaaaa cctccgaat- -gacta-agc
+    1251  caagattcat aaatctaagc gtaacact-a ccagtaattg atccatatt-
+    1301  ttgatcaaca gaacaagtta ccccagggat aacagcgcaa tcctatttaa
+    1351  gagcccatat cgacaattag ggtttacgac ctcgatgttg gatcaggaca
+    1401  tccaaatggt gcagccgcta ttaatggttc gtttgttcaa cgattaaagt
+    1451  cctacgtgat ctgagttcag accggagaaa tccaggtcgg tttctatctg
+    1501  tacattaatt tctcccagta c-gaaaggac aagagaaatg aggcctacgc
+    1551  tatactgtga gcctcagaaa caagatatg- aattaatcta aatatccaaa
+    1601  ttcaatcact tcc----cca ctctagaaaa gagtt---
+//
