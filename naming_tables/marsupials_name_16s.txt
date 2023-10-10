@@ -1,6 +1,6 @@
 MN	Phascomurexia_naso	KJ868145.1:1092-2666
 AP	Acrobates_pygmaeus	KJ868094.1:1042-2460
-VU	Vombatus Ursinus	MK360903.1:1100-2657
+VU	Vombatus_ursinus	MK360903.1:1100-2657
 NT	Notoryctes_typhlops	AJ639874.1:1022-2592
 OA	Ornithorhynchus_anatinus	NC_000891.1:1082-2643
 MR	Paramurexia_rothschildi	KJ868134.1:1104-2680
@@ -9,4 +9,4 @@ MF	Macropus_fuliginosus	MH717106.1:1094-2663
 LK	Lasiorhinus_krefftii	KJ868118.1:1100-2668
 CF	Caenolestes_fuliginosus	AJ508400.1:1099-2670
 PG	Phalanger_gymnotis	KJ868142.1:1046-2611
-SB	Setonix brachyurus	KJ868156.1:1088-2658
+SB	Setonix_brachyurus	KJ868156.1:1088-2658
