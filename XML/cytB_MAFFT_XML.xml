@@ -38,6 +38,11 @@ name="alignment">
                 </taxonset>
             </tree>
             <parameter id="birthRate.t:m_cytB_mafft_nexus" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="rateAC.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateAG.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateAT.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateCG.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateGT.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         </state>
         <init id="RandomTree.t:m_cytB_mafft_nexus" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:m_cytB_mafft_nexus" taxa="@m_cytB_mafft_nexus">
             <populationModel id="ConstantPopulation0.t:m_cytB_mafft_nexus" spec="ConstantPopulation">
@@ -48,9 +53,39 @@ name="alignment">
             <distribution id="prior" spec="util.CompoundDistribution">
                 <distribution id="YuleModel.t:m_cytB_mafft_nexus" spec="beast.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:m_cytB_mafft_nexus" tree="@Tree.t:m_cytB_mafft_nexus"/>
                 <prior id="YuleBirthRatePrior.t:m_cytB_mafft_nexus" name="distribution" x="@birthRate.t:m_cytB_mafft_nexus">
+                    <Gamma id="Gamma.6" name="distr">
+                        <parameter id="RealParameter.13" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
+                        <parameter id="RealParameter.14" spec="parameter.RealParameter" estimate="false" name="beta">2.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateACPrior.s:m_cytB_mafft_nexus" name="distribution" x="@rateAC.s:m_cytB_mafft_nexus">
+                    <Gamma id="Gamma.0" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateAGPrior.s:m_cytB_mafft_nexus" name="distribution" x="@rateAG.s:m_cytB_mafft_nexus">
                     <Gamma id="Gamma.1" name="distr">
-                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
-                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">1000.0</parameter>
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateATPrior.s:m_cytB_mafft_nexus" name="distribution" x="@rateAT.s:m_cytB_mafft_nexus">
+                    <Gamma id="Gamma.2" name="distr">
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateCGPrior.s:m_cytB_mafft_nexus" name="distribution" x="@rateCG.s:m_cytB_mafft_nexus">
+                    <Gamma id="Gamma.3" name="distr">
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateGTPrior.s:m_cytB_mafft_nexus" name="distribution" x="@rateGT.s:m_cytB_mafft_nexus">
+                    <Gamma id="Gamma.5" name="distr">
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                     </Gamma>
                 </prior>
             </distribution>
@@ -60,7 +95,10 @@ name="alignment">
                         <parameter id="mutationRate.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
                         <parameter id="gammaShape.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" estimate="false" name="shape">1.0</parameter>
                         <parameter id="proportionInvariant.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
-                        <substModel id="JC69.s:m_cytB_mafft_nexus" spec="JukesCantor"/>
+                        <substModel id="gtr.s:m_cytB_mafft_nexus" spec="GTR" rateAC="@rateAC.s:m_cytB_mafft_nexus" rateAG="@rateAG.s:m_cytB_mafft_nexus" rateAT="@rateAT.s:m_cytB_mafft_nexus" rateCG="@rateCG.s:m_cytB_mafft_nexus" rateGT="@rateGT.s:m_cytB_mafft_nexus">
+                            <parameter id="rateCT.s:m_cytB_mafft_nexus" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                            <frequencies id="empiricalFreqs.s:m_cytB_mafft_nexus" spec="Frequencies" data="@m_cytB_mafft_nexus"/>
+                        </substModel>
                     </siteModel>
                     <branchRateModel id="StrictClock.c:m_cytB_mafft_nexus" spec="beast.evolution.branchratemodel.StrictClockModel">
                         <parameter id="clockRate.c:m_cytB_mafft_nexus" spec="parameter.RealParameter" estimate="false" name="clock.rate">1.0</parameter>
@@ -76,6 +114,11 @@ name="alignment">
         <operator id="YuleModelNarrow.t:m_cytB_mafft_nexus" spec="Exchange" tree="@Tree.t:m_cytB_mafft_nexus" weight="15.0"/>
         <operator id="YuleModelWide.t:m_cytB_mafft_nexus" spec="Exchange" isNarrow="false" tree="@Tree.t:m_cytB_mafft_nexus" weight="3.0"/>
         <operator id="YuleModelWilsonBalding.t:m_cytB_mafft_nexus" spec="WilsonBalding" tree="@Tree.t:m_cytB_mafft_nexus" weight="3.0"/>
+        <operator id="RateACScaler.s:m_cytB_mafft_nexus" spec="ScaleOperator" parameter="@rateAC.s:m_cytB_mafft_nexus" scaleFactor="0.5" weight="0.1"/>
+        <operator id="RateAGScaler.s:m_cytB_mafft_nexus" spec="ScaleOperator" parameter="@rateAG.s:m_cytB_mafft_nexus" scaleFactor="0.5" weight="0.1"/>
+        <operator id="RateATScaler.s:m_cytB_mafft_nexus" spec="ScaleOperator" parameter="@rateAT.s:m_cytB_mafft_nexus" scaleFactor="0.5" weight="0.1"/>
+        <operator id="RateCGScaler.s:m_cytB_mafft_nexus" spec="ScaleOperator" parameter="@rateCG.s:m_cytB_mafft_nexus" scaleFactor="0.5" weight="0.1"/>
+        <operator id="RateGTScaler.s:m_cytB_mafft_nexus" spec="ScaleOperator" parameter="@rateGT.s:m_cytB_mafft_nexus" scaleFactor="0.5" weight="0.1"/>
         <logger id="tracelog" spec="Logger" fileName="m_cytB_mafft_nexus.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
             <log idref="posterior"/>
             <log idref="likelihood"/>
@@ -84,6 +127,11 @@ name="alignment">
             <log id="TreeHeight.t:m_cytB_mafft_nexus" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:m_cytB_mafft_nexus"/>
             <log idref="YuleModel.t:m_cytB_mafft_nexus"/>
             <log idref="birthRate.t:m_cytB_mafft_nexus"/>
+            <log idref="rateAC.s:m_cytB_mafft_nexus"/>
+            <log idref="rateAG.s:m_cytB_mafft_nexus"/>
+            <log idref="rateAT.s:m_cytB_mafft_nexus"/>
+            <log idref="rateCG.s:m_cytB_mafft_nexus"/>
+            <log idref="rateGT.s:m_cytB_mafft_nexus"/>
         </logger>
         <logger id="screenlog" spec="Logger" logEvery="1000">
             <log idref="posterior"/>
