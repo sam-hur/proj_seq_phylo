@@ -2,23 +2,23 @@
 begin taxa;
 	dimensions ntax=12;
 	taxlabels
-	AP
-	CF
-	LK
-	MF
-	MN
-	MR
-	NT
-	OA
-	PC
-	PG
-	SB
-	VU
+	Acrobates_pygmaeus
+	Caenolestes_fuliginosus
+	Lasiorhinus_krefftii
+	Macropus_fuliginosus
+	Notoryctes_typhlops
+	Ornithorhynchus_anatinus
+	Paramurexia_rothschildi
+	Phalanger_gymnotis
+	Phascolarctos_cinereus
+	Phascomurexia_naso
+	Setonix_brachyurus
+	Vombatus_ursinus
 ;
 end;
 
 begin trees;
-	tree tree_1 = [&R] (((MN:0.060396,MR:0.084857)[&bootstrap=100]:0.225066,(((((PC:0.125871,(VU:0.033941,LK:0.023858)[&bootstrap=100]:0.046472)[&bootstrap=99]:0.053598,PG:0.139668)[&bootstrap=83]:0.029216,(MF:0.035357,SB:0.035687)[&bootstrap=100]:0.104322)[&bootstrap=79]:0.024935,AP:0.140541)[&bootstrap=72]:0.026343,CF:0.267094)[&bootstrap=50]:0.042713)[&bootstrap=41]:0.039493,NT:0.215502,OA:0.763095);
+	tree tree_1 = [&R] (((Phascomurexia_naso:0.060396,Paramurexia_rothschildi:0.084857)[&bootstrap=100]:0.225066,(((((Phascolarctos_cinereus:0.125871,(Vombatus_ursinus:0.033941,Lasiorhinus_krefftii:0.023858)[&bootstrap=100]:0.046472)[&bootstrap=99]:0.053598,Phalanger_gymnotis:0.139668)[&bootstrap=83]:0.029216,(Macropus_fuliginosus:0.035357,Setonix_brachyurus:0.035687)[&bootstrap=100]:0.104322)[&bootstrap=79]:0.024935,Acrobates_pygmaeus:0.140541)[&bootstrap=72]:0.026343,Caenolestes_fuliginosus:0.267094)[&bootstrap=50]:0.042713)[&bootstrap=41]:0.039493,Notoryctes_typhlops:0.215502,Ornithorhynchus_anatinus:0.763095);
 end;
 
 begin figtree;
@@ -42,7 +42,7 @@ begin figtree;
 	set layout.expansion=0;
 	set layout.layoutType="RECTILINEAR";
 	set layout.zoom=0;
-	set legend.attribute=null;
+	set legend.attribute="bootstrap";
 	set legend.fontSize=10.0;
 	set legend.isShown=false;
 	set legend.significantDigits=4;
@@ -56,20 +56,20 @@ begin figtree;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=false;
 	set nodeLabels.significantDigits=4;
-	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.colourAttribute="User selection";
 	set nodeShapeExternal.isShown=false;
 	set nodeShapeExternal.minSize=10.0;
 	set nodeShapeExternal.scaleType=Width;
 	set nodeShapeExternal.shapeType=Circle;
 	set nodeShapeExternal.size=4.0;
-	set nodeShapeExternal.sizeAttribute=null;
-	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
 	set nodeShapeInternal.isShown=false;
 	set nodeShapeInternal.minSize=10.0;
 	set nodeShapeInternal.scaleType=Width;
 	set nodeShapeInternal.shapeType=Circle;
 	set nodeShapeInternal.size=4.0;
-	set nodeShapeInternal.sizeAttribute=null;
+	set nodeShapeInternal.sizeAttribute="Fixed";
 	set polarLayout.alignTipLabels=false;
 	set polarLayout.angularRange=0;
 	set polarLayout.rootAngle=0;
@@ -108,7 +108,7 @@ begin figtree;
 	set trees.orderType="increasing";
 	set trees.rooting=true;
 	set trees.rootingType="User Selection";
-	set trees.transform=false;
+	set trees.transform=true;
 	set trees.transformType="cladogram";
 end;
 
