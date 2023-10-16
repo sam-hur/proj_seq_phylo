@@ -2,23 +2,23 @@
 begin taxa;
 	dimensions ntax=12;
 	taxlabels
-	Acrobates_pygmaeus
-	Caenolestes_fuliginosus
-	Lasiorhinus_krefftii
-	Macropus_fuliginosus
-	Notoryctes_typhlops
-	Ornithorhynchus_anatinus
-	Paramurexia_rothschildi
-	Phalanger_gymnotis
-	Phascolarctos_cinereus
-	Phascomurexia_naso
-	Setonix_brachyurus
-	Vombatus_ursinus
+	AP
+	CF
+	LK
+	MF
+	MN
+	MR
+	NT
+	OA
+	PC
+	PG
+	SB
+	VU
 ;
 end;
 
 begin trees;
-	tree tree_1 = [&R] ((((Caenolestes_fuliginosus:0.209904,Ornithorhynchus_anatinus:0.597697):0.027872,(Notoryctes_typhlops:0.238269,(Paramurexia_rothschildi:0.08405,Phascomurexia_naso:0.052571):0.209385):0.029825):0.017063,Acrobates_pygmaeus:0.11825):0.00112,(Phalanger_gymnotis:0.121902,((Lasiorhinus_krefftii:0.023085,Vombatus_ursinus:0.032804):0.042461,Phascolarctos_cinereus:0.108256):0.041984):0.023547,(Setonix_brachyurus:0.02963,Macropus_fuliginosus:0.038361):0.088443);
+	tree tree_1 = [&R] ((((Caenolestes_fuliginosus:0.209904,Ornithorhynchus_anatinus:0.597697):0.027872,(Notoryctes_typhlops:0.238269,(Paramurexia_rothschildi:0.08405,Phascomurexia_naso:0.052571):0.209385):0.029825):0.017063,Acrobates_pygmaeus:0.11825):0.00112,(Phalanger_gymnotis:0.121902,((Lasiorhinus_krefftii:0.023085,Vombatus:0.032804):0.042461,Phascolarctos_cinereus:0.108256):0.041984):0.023547,(Setonix:0.02963,Macropus_fuliginosus:0.038361):0.088443);
 end;
 
 begin figtree;
@@ -56,20 +56,20 @@ begin figtree;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=false;
 	set nodeLabels.significantDigits=4;
-	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.colourAttribute=null;
 	set nodeShapeExternal.isShown=false;
 	set nodeShapeExternal.minSize=10.0;
 	set nodeShapeExternal.scaleType=Width;
 	set nodeShapeExternal.shapeType=Circle;
 	set nodeShapeExternal.size=4.0;
-	set nodeShapeExternal.sizeAttribute="Fixed";
-	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
 	set nodeShapeInternal.isShown=false;
 	set nodeShapeInternal.minSize=10.0;
 	set nodeShapeInternal.scaleType=Width;
 	set nodeShapeInternal.shapeType=Circle;
 	set nodeShapeInternal.size=4.0;
-	set nodeShapeInternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.sizeAttribute=null;
 	set polarLayout.alignTipLabels=false;
 	set polarLayout.angularRange=0;
 	set polarLayout.rootAngle=0;
@@ -78,7 +78,7 @@ begin figtree;
 	set radialLayout.spread=0.0;
 	set rectilinearLayout.alignTipLabels=false;
 	set rectilinearLayout.curvature=0;
-	set rectilinearLayout.rootLength=625;
+	set rectilinearLayout.rootLength=100;
 	set scale.offsetAge=0.0;
 	set scale.rootAge=1.0;
 	set scale.scaleFactor=1.0;
@@ -100,7 +100,7 @@ begin figtree;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
 	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=18;
+	set tipLabels.fontSize=10;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
