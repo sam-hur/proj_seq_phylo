@@ -12,13 +12,13 @@ begin taxa;
 	Ornithorhynchus_anatinus
 	Phascolarctos_cinereus
 	Phalanger_gymnotis
-	Setonix brachyurus
-	Vombatus Ursinus
+	Setonix_brachyurus
+	Vombatus_ursinus
 ;
 end;
 
 begin trees;
-	tree tree_1 = [&R] ((((Caenolestes_fuliginosus:0.209904,Ornithorhynchus_anatinus:0.597697):0.027872,(Notoryctes_typhlops:0.238269,(Paramurexia_rothschildi:0.08405,Phascomurexia_naso:0.052571):0.209385):0.029825):0.017063,Acrobates_pygmaeus:0.11825):0.00112,(Phalanger_gymnotis:0.121902,((Lasiorhinus_krefftii:0.023085,Vombatus:0.032804):0.042461,Phascolarctos_cinereus:0.108256):0.041984):0.023547,(Setonix:0.02963,Macropus_fuliginosus:0.038361):0.088443);
+	tree tree_1 = [&R] ((((Caenolestes_fuliginosus:0.209904,Ornithorhynchus_anatinus:0.597697):0.027872,(Notoryctes_typhlops:0.238269,(Paramurexia_rothschildi:0.08405,Phascomurexia_naso:0.052571):0.209385):0.029825):0.017063,Acrobates_pygmaeus:0.11825):0.00112,(Phalanger_gymnotis:0.121902,((Lasiorhinus_krefftii:0.023085,Vombatus_ursinus:0.032804):0.042461,Phascolarctos_cinereus:0.108256):0.041984):0.023547,(Setonix_brachyurus:0.02963,Macropus_fuliginosus:0.038361):0.088443);
 end;
 
 begin figtree;
