@@ -2,23 +2,23 @@
 begin taxa;
 	dimensions ntax=12;
 	taxlabels
-	AP
-	CF
-	LK
-	MF
-	MN
-	MR
-	NT
-	OA
-	PC
-	PG
-	SB
-	VU
+	Acrobates_pygmaeus
+	Caenolestes_fuliginosus
+	Lasiorhinus_krefftii
+	Macropus_fuliginosus
+	Notoryctes_typhlops
+	Ornithorhynchus_anatinus
+	Paramurexia_rothschildi
+	Phalanger_gymnotis
+	Phascolarctos_cinereus
+	Phascomurexia_naso
+	Setonix
+	Vombatus
 ;
 end;
 
 begin trees;
-	tree tree_1 = [&R] (((((MN:0.105291,MR:0.102704)[&label=98]:0.088401,(NT:0.206679,(MF:0.055947,SB:0.099354)[&label=100]:0.053253)[&label=76]:0.030583)[&label=30]:0.019247,((PC:0.956851,AP:10.002253)[&label=58]:0.598285,PG:0.06494)[&label=42]:0.060979)[&label=20]:0.039094,(VU:0.035294,LK:0.056168)[&label=71]:0.095864)[&label=46]:0.040796,OA:0.382433,CF:0.163126);
+	tree tree_1 = [&R] ((Paramurexia_rothschildi:0.097814,Phascomurexia_naso:0.098764):0.047306,((Phalanger_gymnotis:0.062066,(Acrobates_pygmaeus:8.522381,Phascolarctos_cinereus:0.477618):0.279908):0.055535,((Caenolestes_fuliginosus:0.151193,Ornithorhynchus_anatinus:0.279149):0.009955,(Lasiorhinus_krefftii:0.049264,Vombatus:0.039548):0.078246):0.010128):0.004841,((Setonix:0.083941,Macropus_fuliginosus:0.064363):0.03441,Notoryctes_typhlops:0.16797):0.011368);
 end;
 
 begin figtree;
@@ -78,7 +78,7 @@ begin figtree;
 	set radialLayout.spread=0.0;
 	set rectilinearLayout.alignTipLabels=false;
 	set rectilinearLayout.curvature=0;
-	set rectilinearLayout.rootLength=100;
+	set rectilinearLayout.rootLength=875;
 	set scale.offsetAge=0.0;
 	set scale.rootAge=1.0;
 	set scale.scaleFactor=1.0;
@@ -100,15 +100,15 @@ begin figtree;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
 	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=8;
+	set tipLabels.fontSize=16;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
 	set trees.order=false;
 	set trees.orderType="increasing";
-	set trees.rooting=false;
+	set trees.rooting=true;
 	set trees.rootingType="User Selection";
-	set trees.transform=false;
+	set trees.transform=true;
 	set trees.transformType="cladogram";
 end;
 
